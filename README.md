@@ -85,3 +85,26 @@ Un conjunt de productes que constitueixen **una carpeta de treball professional*
 ---
 
 _No és caos: és experiència accelerada._
+
+
+# Tasques i Productes
+
+| Tasques                                | Productes                                   |
+|-----------------------------------------|---------------------------------------------|
+| [📄 Tasca00](Tasques/T00/README.md)     | [📁 Producte01](Productes/P01/README.md)    |
+| [📄 Tasca01](Tasques/T01/README.md)     | [📁 Producte02](Productes/P02/README.md)    |
+| [📄 Tasca02](Tasques/T02/README.md)     | [📁 Producte03](Productes/P03/README.md)    |
+| [📄 Tasca03](Tasques/T03/README.md)     |                                             |
+| [📄 Tasca04](Tasques/T04/README.md)     |                                             |
+| [📄 Tasca05](Tasques/T05/README.md)     |                                             |
+| [📄 Tasca06](Tasques/T06/README.md)     |                                             |
+| [📄 Tasca07](Tasques/T07/README.md)     |                                             |
+| [📄 Tasca08](Tasques/T08/README.md)     |                                             |
+| [📄 Tasca09](Tasques/T09/README.md)     |                                             |
+| [📄 Tasca10](Tasques/T10/README.md)     |                                             |
+| [📄 Tasca11](Tasques/T11/README.md)     |                                             |
+| [📄 Tasca12](Tasques/T12/README.md)     |                                             |
+| [📄 Tasca13](Tasques/T13/README.md)     |                                             |
+| [📄 Tasca14](Tasques/T14/README.md)     |                                             |
+| [📄 Tasca15](Tasques/T15/README.md)     |                                             |
+
