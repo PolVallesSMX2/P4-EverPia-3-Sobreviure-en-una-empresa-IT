@@ -91,7 +91,7 @@ _No és caos: és experiència accelerada._
 
 | Tasques                                | Productes                                   |
 |-----------------------------------------|---------------------------------------------|
-| [📄 Tasca00](Tasques/T00/README.md)     | [📁 Producte01](Productes/P01/README.md)    |
+| 📄 [Tasca00](Tasques/T00/README.md)     | [📁 Producte01](Productes/P01/README.md)    |
 | [📄 Tasca01](Tasques/T01/README.md)     | [📁 Producte02](Productes/P02/README.md)    |
 | [📄 Tasca02](Tasques/T02/README.md)     | [📁 Producte03](Productes/P03/README.md)    |
 | [📄 Tasca03](Tasques/T03/README.md)     |                                             |
