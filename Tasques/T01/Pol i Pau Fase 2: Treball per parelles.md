@@ -15,3 +15,6 @@ A la resposta 1 s’ha proposat fer còpies de seguretat més sovint mentre que 
 | Tipus de Còpia (BD) | Incremental diària, completa setmanal | Incremental diària per rapidesa i eficiència; completa setmanal per estabilitat. |
 | Mitjà 1 (Local) | NAS | emmagatzema totes les còpies en un sol lloc, permet recuperació ràpida dins de l'oficina. |
 | Mitjà 2 (Extern) | Cloud | Assegura recuperació fora del lloc en cas d'incident greu, complint regla 3-2-1. |
+
+👉 [Torna a la pàguina de la tasca](README.md)  
+📍 [Torna a la pàguina del projecte](../../README.md)
