@@ -28,4 +28,5 @@ Fase 2: Treball per parelles
 - [Blai i Xavi](https://github.com/PolVallesSMX2/P4-EverPia-3-Sobreviure-en-una-empresa-IT/blob/main/Tasques/T01/Blai%20i%20Xavi%20Fase%202%3A%20Treball%20per%20parelles.md)
 
 👉 [Fase 3: Treball en grup](https://github.com/PolVallesSMX2/P4-EverPia-3-Sobreviure-en-una-empresa-IT/blob/main/Tasques/T01/Fase%203%3A%20Treball%20en%20grup.md)
-🏳️ [Complete english verion](#)
+
+🏳️ [Complete english verion](https://github.com/PolVallesSMX2/P4-EverPia-3-Sobreviure-en-una-empresa-IT/blob/main/Tasques/T01/Complete%20English%20Version.md)
