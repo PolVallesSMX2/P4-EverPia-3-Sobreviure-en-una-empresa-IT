@@ -74,5 +74,5 @@ Pel tipus de còpia, es fara una còpia diària incremental per a les dades de C
 ## MITJANS I UBICACIÓ
 El mitjà de còpia escollit és un NAS per a còpies ràpides i centralitzades, amb la còpia més recent guardada a l’oficina. A més, es manté una còpia addicional al Cloud per garantir recuperació fora del lloc en cas d’incident greu.
 
-👉 [Torna a la pàguina de la tasca](README.md)
+👉 [Torna a la pàguina de la tasca](README.md)  
 📍 [Torna a la pàguina del projecte](../../README.md)
