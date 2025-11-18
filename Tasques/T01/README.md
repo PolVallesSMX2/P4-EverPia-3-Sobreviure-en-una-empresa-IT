@@ -22,8 +22,9 @@ La primera hora el vostre responsable de seguretat us presenta el tema de les c�
 
 ## 👉 Enllaços d'interes
 
-[Fase 1: Treball individual](#)
-Fase 2: Treball per parelles
-- [Pol i Pau](#)
-- [Blai i Pol](#)
-[Fase 3: Treball en grup](#)
+[Fase 1: Treball individual](https://github.com/PolVallesSMX2/P4-EverPia-3-Sobreviure-en-una-empresa-IT/blob/main/Tasques/T01/Fase%201%3A%20Treball%20individual.md)  
+Fase 2: Treball per parelles  
+- [Pol i Pau](https://github.com/PolVallesSMX2/P4-EverPia-3-Sobreviure-en-una-empresa-IT/blob/main/Tasques/T01/Pol%20i%20Pau%20Fase%202%3A%20Treball%20per%20parelles.md)
+- [Blai i Xavi](https://github.com/PolVallesSMX2/P4-EverPia-3-Sobreviure-en-una-empresa-IT/blob/main/Tasques/T01/Blai%20i%20Xavi%20Fase%202%3A%20Treball%20per%20parelles.md)
+
+[Fase 3: Treball en grup](https://github.com/PolVallesSMX2/P4-EverPia-3-Sobreviure-en-una-empresa-IT/blob/main/Tasques/T01/Fase%203%3A%20Treball%20en%20grup.md)
