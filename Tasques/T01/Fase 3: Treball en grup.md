@@ -65,3 +65,6 @@ Quines dades es copien i amb quina freqüència (separant Servidor/Clients i cr�
 
 Per garantir que les dades de Comptabilitat i Clients compleixen amb un RPO de 4 hores, es realitzen còpies incrementals diàries que capturen els canvis més recents i minimitzen la pèrdua de dades.
 Per assolir un RTO de 4 hores, la recuperació es fa des del NAS local per obtenir accés immediat, amb la còpia al Cloud com a alternativa en cas que el servidor local no estigui disponible. Això garanteix que les dades es puguin recuperar ràpidament i que els problemes afectin poc el funcionament de l’empresa.
+
+👉 [Torna a la pàguina de la tasca](README.md)  
+📍 [Torna a la pàguina del projecte](../../README.md)
