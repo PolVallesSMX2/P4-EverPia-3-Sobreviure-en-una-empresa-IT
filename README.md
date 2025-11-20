@@ -107,3 +107,4 @@ _No és caos: és experiència accelerada._
 | 📄 [Tasca13](Tasques/T13/README.md)       |                                             |
 | 📄 [Tasca14](Tasques/T14/README.md)       |                                             |
 | 📄 [Tasca15](Tasques/T15/README.md)       |                                             |
+| 📄 [Tasca16](Tasques/T16/README.md)       |                                             |
