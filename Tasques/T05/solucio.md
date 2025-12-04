@@ -44,7 +44,7 @@ Fent això indiquem que el port de connexió es el 20 (Port 20) i no permitim co
 
 ![Capt](img/7.png)
 
-Ara podem fer una llista d’usuaris autoritzats a la connexió remota afegint la línea.
+Ara podem fer una llista d’usuaris autoritzats a la connexió remota modificant l’arxiu anterior (sudo nano /etc/ssh/sshd_config) afegint la línea.
 
 ```bash
 AllowUsers {usuaris separats per comes}
