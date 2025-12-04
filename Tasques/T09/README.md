@@ -90,5 +90,5 @@ En aquesta prova de concepte s'ha demostrat el funcionament amb els requisits qu
 
 > Nota: Els termes 'redacta' i 'raonada' indiquen clarament que s'espera que escriguis amb les teves pròpies paraules i que aportis un pensament crític al teu treball. Pensa que si les conclusions les redacta directament una IA, ens plantejarem seriosament substiuir-te per ella.
 
-👉 Pots veure la solució [aquí](solucio.md)
+👉 Pots veure la solució [aquí](solucio.md)  
 📍 Pots anar a la pàgina de projecte [aquí](../../README.md)
