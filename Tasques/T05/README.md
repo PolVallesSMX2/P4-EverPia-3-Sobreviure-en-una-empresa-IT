@@ -1,117 +1,26 @@
 # T05: Accés Remot. Connexió via SSH (tasca individual)
 
-Haurem de tenir dues VM, les dues amb interfícies Xarxa NAT i Host-Only. Per tant amb DHCP activat (true).
+Comencem una de les tasques més crítiques per a la nostra operativa diària a la consultora: la gestió remota segura. Com sabeu, els servidors dels nostres clients (i els nostres propis servidors interns) no són al nostre costat; estan en CPDs o al núvol. L'accés físic és l'excepció, no la norma.
 
-A continuació instal·larem **ssh**
-```bash
-sudo apt upgrade && sudo apt update && sudo apt install ssh -y
-```
-![Capt](img/2.png)
-![capt](img/3.png)
+La nostra eina principal per a això és SSH (Secure Shell). És l'estàndard absolut de la indústria per administrar màquines (especialment Linux) de manera xifrada i eficient.
 
-També habilitarem i iniciarem el servei ssh
-```bash
-sudo systemctl enable ssh
-sudo systemctl start ssh
-```
-Per verificar
-```bash
-sudo systemctl status ssh
-```
+**La Vostra Missió: Crear la Base de Coneixement**
 
-Un cop hem pogut observar quina es la IP del nostra servidor haurem d’instal·lar i configurar un client Windows, un cop estiguem dins haurem d’entrar a la terminal PowerShell, ara podrem conectarnos al servidor vía ssh.
+La consultora creixerà, i aviat s'incorporaran nous becaris al vostre equip. No podem permetre'ns perdre temps formant-los des de zero en tasques bàsiques.
 
-```bash
-ssh usuari@192.168.56.106
-```
-> ssh usuari@[IP del servidor del adaptador host-only]
+Per tant, la teva tasca avui és una Prova de Concepte (PoC) interna que servirà de base per a la documentació oficial de l'empresa. Has de crear les guies d'ús internes que rebrà el proper becari, explicant com connectar-se als nostres sistemes de manera segura.
 
-![Capt](img/4.png)
+Per fer-ho, utilitza màquines virtuals i documentareu el procés de connexió SSH des de i entre els dos sistemes client que utilitzem:  
+- Des de Clients Linux (usant la terminal nativa).
+- Des de Clients Windows (usant les eines modernes de terminal o PowerShell).
 
-Ara podem verificar que estem treballant com si estiguessim des de ubuntu.
-```bash
-whoami
-hostname
-```
-Si volem desactivar l’us de root en conexions ssh per garantir una major seguretat haurem d’editar l’arxiu /etc/ssh/sshd_config
+Usa com a referència dels punts a documentar les activitats que s’indiquen al final del document Pràctica SSH.
 
-![Capt](img/5.png)
+Aquesta guia ha de ser impecable. Penseu que el pròxim tècnic que s'incorpori dependrà directament de la vostra feina per poder ser operatiu des del primer dia. Comencem la PoC.
 
-![Capt](img/6.png)
+**Materials i links de suport**  
+● Moodle 0227 Serveis de Xarxa. UD4.AA2 Pràctica SSH  
+Vídeo. SSH amb clau pública/privada ([link](https://youtu.be/3JbJ_8fO5nM))
 
+📜 Pots veure la solució de la tasca [aquí](solucio.md)
 
-Fent això indiquem que el port de connexió es el 20 (Port 20) i no permitim connexions a root (PermitRootLogin prohibit-password).
-
-![Capt](img/7.png)
-
-Ara podem fer una llista d’usuaris autoritzats a la connexió remota afegint la línea.
-
-```bash
-AllowUsers {usuaris separats per comes}
-```
-
-![CApt](img/8.png)
-
-Per fer comprovació, crearem un nou usuari (usuari2) i provarem de conectarnos per ssh amb aquest.
-
-```bash
-sudo adduser usuari2
-```
-```bash
-ssh usuari2@192.168.56.106
-```
-
-![Capt](img/9.png)
-
-Com a resultat tindrem l’acces denegat!!
-
-Ara tot el trànsit desde el client s’envia com si fos el servidor, pero si volem afegir una redirección dinàmica (dynamic forwarding) ens hem de conectar amb una variació a la comanda.
-
-```bash
-ssh -D 9876 usuari@192.168.56.106
-```
-
-![Capt](img/10.png)
-
-Ara configurarem el tunel de SOCKS.
-
-![Capt](img/w1.png)
-
-![Capt](img/w2.png)
-
-![Capt](img/w3.png)
-
-Amb wireshark podem comprovar que tot el trànsit que generem s’envia per SSH al servidor (Podem veure comunicacions entre 127.0.2.7 (IP CLIENT) y 192.168.56.106 (IP SERVIDOR)
-
-![Capt](img/w11.png)
-
-Ara veurem com connectar-nos al ssh sense haver de posar la contrasenya. Per fer-ho primer de tot haurem de generar una ssh public key amb les següents comandes.
-
-Crear la key: 
-```bash
-ssh-keygen -t ed25519
-```
-Veure la key:
-```bash
-type $env:USERPROFILE\.ssh\id_ed25519.pub
-```
-
-![Capt](img/w8.png)
-
-Ara des del servidor crearem un directori on només el propietari tingui permisos, on guardarem la key a authorized_keys.
-
-Amb les comandes:
-
-```bash
-mkdir -p ~/.ssh
-sudo chmod 700 ~/.ssh
-sudo nano ~/.ssh/authorized_keys # Dins aquest arxiu enganxarem la key generada anteriorment.
-cat ~/.ssh/auth	orized_keys # Per veure el contingut i verificar.
-sudo chmod 600 ~/.ssh/authorized_keys # Ara el propietari només pot veure i escriure.
-```
-
-![Capt](img/u9.png)
-
-Ara ens podem connectar sense haver introduït manualment la contrasenya.
-
-![Capt](img/w10.png)
