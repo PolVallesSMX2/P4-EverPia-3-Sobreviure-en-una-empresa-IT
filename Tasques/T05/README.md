@@ -22,5 +22,5 @@ Aquesta guia ha de ser impecable. Penseu que el pròxim tècnic que s'incorpori 
 ● Moodle 0227 Serveis de Xarxa. UD4.AA2 Pràctica SSH  
 Vídeo. SSH amb clau pública/privada ([link](https://youtu.be/3JbJ_8fO5nM))
 
-📜 Pots veure la solució de la tasca [aquí](solucio.md)
-
+👉 Pots veure la solució [aquí](solucio.md)  
+📍 Pots anar a la pàgina de projecte [aquí](../../README.md)
