@@ -114,4 +114,7 @@ sudo chmod 600 ~/.ssh/authorized_keys # Ara el propietari només pot veure i esc
 
 Ara ens podem connectar sense haver introduït manualment la contrasenya.
 
+```bash
+ssh -i $env:USERPROFILE\.ssh\id_ed25519 usuari@192.168.56.106
+```
 ![Capt](img/w10.png)
