@@ -30,26 +30,26 @@ Ara activarem el control remot a Zorin, per fer-ho accedim a Configuració → C
 
 Ara definim les dades d'accés segons sigui necessari.
 
-![capt](7.png)
+![capt](img/7.png)
 
-![capt](8.png)
+![capt](img/8.png)
 
 Des de Windows ara podem conectarnos a zorin, amb Escritorio Remoto. Obrirem l’aplicació i introduïrem les dades d’acces.
 
-![capt](9.png)
+![capt](img/9.png)
 
 Equipo: usuari-VirtualBox.local com hem observat abans quan hem configurat l’escritorio remoto a zorin.
 Usuario: usuari, ja que es el que hem definit a zorin.
 
-![capt](10.png)
+![capt](img/10.png)
 
 Introduïm la contrasenya que hem definit a la configuració a zorin.
 
-![capt](11.png)
+![capt](img/11.png)
 
 Acceptem i ja estariem dins!!
 
-![capt](12.png)
+![capt](img/12.png)
 
 ***
 
