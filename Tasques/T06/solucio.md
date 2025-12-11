@@ -16,6 +16,8 @@ Es recomanable deixar activada la autentificació a nivell de xarxa.
 
 Ademés podrem afegir usuaris de escriptori remot.
 
+**IMPORTANT: És important desactivar el firewall de Windows per poder conectarnos des de remmina, per altre banda haurem de crear un nou usuari per a poder conectarnos en cas de que no tinguem un, podem fer-ho des de Configuració-->Comptes-->Afegir un nou compte-->Sense un compte de microsoft i seguir les instruccions.**
+
 ![capt](img/2.png)
 
 Ara haurem d’entrar a la segona VM, una màquina amb Zorin. Provarem de conectarnos al escriptori remot de Windows per fer-ho hem d’obrir Remmina.
