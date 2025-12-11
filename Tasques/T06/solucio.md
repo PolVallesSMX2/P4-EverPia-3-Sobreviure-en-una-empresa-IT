@@ -2,7 +2,7 @@
 
 Per a fer aquesta pràctica haurem de tenir dues VM Windows i Zorin, les dues amb xarxa NAT per a que puguin veures entre elles dins la xarxa.
 
-Farem comprovacions inicials amb ping entre elles.
+Farem comprovacions inicials amb ping entre elles, **abans haurem de desactivar el firewall de Windows, sino no funcionarà!!**
 
 ![Capt](img/0.1.png)
 
@@ -16,7 +16,7 @@ Es recomanable deixar activada la autentificació a nivell de xarxa.
 
 Ademés podrem afegir usuaris de escriptori remot.
 
-**IMPORTANT: És important desactivar el firewall de Windows per poder conectarnos des de remmina, per altre banda haurem de crear un nou usuari per a poder conectarnos en cas de que no tinguem un, podem fer-ho des de Configuració-->Comptes-->Afegir un nou compte-->Sense un compte de microsoft i seguir les instruccions.**
+**IMPORTANT: Haurem de crear un nou usuari per a poder conectarnos en cas de que no tinguem un, podem fer-ho des de Configuració-->Comptes-->Afegir un nou compte-->Sense un compte de microsoft i seguir les instruccions.**
 
 ![capt](img/2.png)
 
