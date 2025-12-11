@@ -56,6 +56,7 @@ Acceptem i ja estariem dins!!
 ***
 
 ## ⚠️ Resolució de Problemes Ràpida (Quick Troubleshooting)
+_Informació adicional cercada a Google, no especialment provada o usada per mí_
 
 La velocitat en la connexió defineix la qualitat del nostre servei. Aquí hi ha els errors més habituals i la seva solució:
 
