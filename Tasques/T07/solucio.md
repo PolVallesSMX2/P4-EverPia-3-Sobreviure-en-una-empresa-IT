@@ -1,4 +1,4 @@
-# T07: Accés remot. Serveis d’assistència remota (tasca en parelles)
+# T07: Accés remot. Serveis d’assistència remota (tasca en parelles) - Xavi i Pol
 ## Fase 1: Anàlisi Comparativa i Selecció de la Solució
 
 | Criteri                  | TeamViewer  | AnyDesk  | Chrome Remote Desktop  | RustDesk  |
